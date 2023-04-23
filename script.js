@@ -10,7 +10,7 @@ function actRegist(event) {
     const form = document.getElementById('myFormEntry');
     const formData = new FormData(form);
 
-    console.log('first_name: ' + formData.get('first_name'));
+    console.log('child1_grade: ' + formData.get('child1_grade'));
     
     document.body.style.cursor = 'wait'; // カーソルを砂時計に変える
     const btnRegist = document.getElementById('btnRegist');
