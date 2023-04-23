@@ -130,9 +130,7 @@ main.mycss {
 }
 
 
-.control_container input[type="text"],
-.control_container input[type="email"],
-.control_container select {
+.mycontrol {
     border-radius: 0.25rem;
     /* font-size: 1rem; */
     border: 1px solid #aba;
@@ -148,23 +146,18 @@ main.mycss {
 }
 
 
-.control_container input[type="text"].center,
-.control_container input[type="email"].center {
+.mycontrol.center {
     text-align: center;
 }
 
-.control_container input[type="text"]:hover,
-.control_container input[type="email"]:hover,
-.control_container select {
-    background: #0a09;
+.mycontrol:hover {
+    background: #0a05;
 }
-.control_container input[type="text"]:focus,
-.control_container input[type="email"]:focus,
-.control_container select {
+
+.mycontrol:focus {
+    border-radius: 0.25rem;
     outline: 2px solid #aac;
+    background: #0a09;
+    /* color: #fff; */
 }
-.control_container input[type="text"]:focus,
-.control_container input[type="email"]:focus{
-    background: #0a0;
-    color: #fff;
-}
+
