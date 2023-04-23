@@ -33,6 +33,9 @@ h3 {
 h4 {
     font-size: 1.05em;
 }
+h5 {
+    font-size: 1.01em;
+}
 
 body.mycss {
     background: #afa8;
@@ -100,6 +103,16 @@ main.mycss {
     margin-bottom: 1rem;
   }
 
+  .container_subtitle {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    border-bottom: #070a 1px solid;
+    /* padding-bottom: 1rem; */
+    margin-bottom: 0.5rem;
+  }
+
   .control_container label {
     height: var(--label-height); /* これを入れておけばラベルが空文字でもつぶれない */
     line-height: 0.8rem;
@@ -118,7 +131,8 @@ main.mycss {
 
 
 .control_container input[type="text"],
-.control_container input[type="email"] {
+.control_container input[type="email"],
+.control_container select {
     border-radius: 0.2rem;
     /* font-size: 1rem; */
     border: 1px solid #ccc;
@@ -140,12 +154,17 @@ main.mycss {
 }
 
 .control_container input[type="text"]:hover,
-.control_container input[type="email"]:hover {
+.control_container input[type="email"]:hover,
+.control_container select {
     background: #0a09;
 }
 .control_container input[type="text"]:focus,
-.control_container input[type="email"]:focus {
-    background: #0a0;
+.control_container input[type="email"]:focus,
+.control_container select {
     outline: 2px solid #aac;
+}
+.control_container input[type="text"]:focus,
+.control_container input[type="email"]:focus{
+    background: #0a0;
     color: #fff;
 }
