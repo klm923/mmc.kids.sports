@@ -133,7 +133,7 @@ main.mycss {
 .control_container input[type="text"],
 .control_container input[type="email"],
 .control_container select {
-    border-radius: 0.2rem;
+    border-radius: 0.25rem;
     /* font-size: 1rem; */
     border: 1px solid #aba;
     background: #fff5;
