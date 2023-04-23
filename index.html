@@ -18,167 +18,174 @@
 
 <body class="mycss">
 
-    <div class="container box_shadow_under_right">
+    <header class="mycss box_shadow_under">
+        <h5>百道 子どもスポーツ教室 ２０２３</h5>
+    </header>
 
-        <div class="container_title">
-            <h4 style="margin-right: auto;" onclick="toggleCondField();">
-                百道子どもスポーツ教室 お申込みフォーム
-            </h4>
+    <main class="mycss">
+
+        <div class="container box_shadow_under_right">
+    
+            <div class="container_title">
+                <h4 style="margin-right: auto;" onclick="toggleCondField();">
+                    お申込みフォーム
+                </h4>
+            </div>
+    
+            <form id="myFormEntry">
+                <div class="control_container" style="display: block; margin-right: 0;">
+                    <label for="email">メールアドレス</label>
+                    <input class="mycontrol" type="email" id="email" name="email" value="" style="width: 100%; " />
+                </div>
+                <div class="control_container">
+                    <label for="family_name">保護者名（姓のみで可）</label>
+                    <input class="mycontrol" type="text" id="family_name" name="family_name" value="" style="width: 10rem;" />
+                </div>
+                <div class="control_container">
+                    <label for="tel">連絡先</label>
+                    <input class="mycontrol" type="text" id="tel" name="tel" value="" style="width: 15rem;" />
+                </div>
+    
+                <div class="container_subtitle">
+                    <h5 style="margin-right: auto;" onclick="toggleCondField();">
+                        参加者１
+                    </h5>
+                </div>
+                <div class="control_container">
+                    <label for="chile1_name">名前（名のみで可）</label>
+                    <input class="mycontrol" type="text" id="chile1_name" name="chile1_name" value="" style="width: 8rem;" />
+                </div>
+                <div class="control_container">
+                    <label for="chile1_rubi">ふりがな</label>
+                    <input class="mycontrol" type="text" id="chile1_rubi" name="chile1_rubi" value="" style="width: 8rem;" />
+                </div>
+                <div class="control_container">
+                    <label for="chile1_grade">学年</label>
+                    <select class="mycontrol" name="occupation" id="chile1_grade" name="chile1_grade">
+                        <option value="" disabled selected >選択</option>
+                        <option value="1">１年生</option>
+                        <option value="2">２年生</option>
+                        <option value="3">３年生</option>
+                        <option value="4">４年生</option>
+                        <option value="5">５年生</option>
+                        <option value="6">６年生</option>
+                    </select>
+                </div>
+    
+                <div class="container_subtitle">
+                    <h5 style="margin-right: auto;" onclick="toggleCondField();">
+                        参加者２
+                    </h5>
+                </div>
+                <div class="control_container">
+                    <label for="chile2_name">名前（名のみで可）</label>
+                    <input class="mycontrol" type="text" id="chile2_name" name="chile2_name" value="" style="width: 8rem;" />
+                </div>
+                <div class="control_container">
+                    <label for="chile2_rubi">ふりがな</label>
+                    <input class="mycontrol" type="text" id="chile2_rubi" name="chile2_rubi" value="" style="width: 8rem;" />
+                </div>
+                <div class="control_container">
+                    <label for="chile2_grade">学年</label>
+                    <select class="mycontrol" name="occupation" id="chile2_grade" name="chile2_grade">
+                        <option value="" disabled selected >選択</option>
+                        <option value="1">１年生</option>
+                        <option value="2">２年生</option>
+                        <option value="3">３年生</option>
+                        <option value="4">４年生</option>
+                        <option value="5">５年生</option>
+                        <option value="6">６年生</option>
+                    </select>
+                </div>
+    
+                <div class="container_subtitle">
+                    <h5 style="margin-right: auto;" onclick="toggleCondField();">
+                        参加者３
+                    </h5>
+                </div>
+                <div class="control_container">
+                    <label for="chile3_name">名前（名のみで可）</label>
+                    <input class="mycontrol" type="text" id="chile3_name" name="chile3_name" value="" style="width: 8rem;" />
+                </div>
+                <div class="control_container">
+                    <label for="chile3_rubi">ふりがな</label>
+                    <input class="mycontrol" type="text" id="chile3_rubi" name="chile3_rubi" value="" style="width: 8rem;" />
+                </div>
+                <div class="control_container">
+                    <label for="chile3_grade">学年</label>
+                    <select class="mycontrol" name="occupation" id="chile3_grade" name="chile3_grade">
+                        <option value="" disabled selected >選択</option>
+                        <option value="1">１年生</option>
+                        <option value="2">２年生</option>
+                        <option value="3">３年生</option>
+                        <option value="4">４年生</option>
+                        <option value="5">５年生</option>
+                        <option value="6">６年生</option>
+                    </select>
+                </div>
+    
+                <div class="container_subtitle">
+                    <h5 style="margin-right: auto;" onclick="toggleCondField();">
+                        参加者４
+                    </h5>
+                </div>
+                <div class="control_container">
+                    <label for="chile4_name">名前（名のみで可）</label>
+                    <input class="mycontrol" type="text" id="chile4_name" name="chile4_name" value="" style="width: 8rem;" />
+                </div>
+                <div class="control_container">
+                    <label for="chile4_rubi">ふりがな</label>
+                    <input class="mycontrol" type="text" id="chile4_rubi" name="chile4_rubi" value="" style="width: 8rem;" />
+                </div>
+                <div class="control_container">
+                    <label for="chile4_grade">学年</label>
+                    <select class="mycontrol" name="occupation" id="chile4_grade" name="chile4_grade">
+                        <option value="" disabled selected >選択</option>
+                        <option value="1">１年生</option>
+                        <option value="2">２年生</option>
+                        <option value="3">３年生</option>
+                        <option value="4">４年生</option>
+                        <option value="5">５年生</option>
+                        <option value="6">６年生</option>
+                    </select>
+                </div>
+    
+                <div class="container_subtitle">
+                    <h5 style="margin-right: auto;" onclick="toggleCondField();">
+                        参加者５
+                    </h5>
+                </div>
+                <div class="control_container">
+                    <label for="chile5_name">名前（名のみで可）</label>
+                    <input class="mycontrol" type="text" id="chile5_name" name="chile5_name" value="" style="width: 8rem;" />
+                </div>
+                <div class="control_container">
+                    <label for="chile5_rubi">ふりがな</label>
+                    <input class="mycontrol" type="text" id="chile5_rubi" name="chile5_rubi" value="" style="width: 8rem;" />
+                </div>
+                <div class="control_container">
+                    <label for="chile5_grade">学年</label>
+                    <select class="mycontrol" name="occupation" id="chile5_grade" name="chile5_grade">
+                        <option value="" disabled selected >選択</option>
+                        <option value="1">１年生</option>
+                        <option value="2">２年生</option>
+                        <option value="3">３年生</option>
+                        <option value="4">４年生</option>
+                        <option value="5">５年生</option>
+                        <option value="6">６年生</option>
+                    </select>
+                </div>
+    
+                <div class="" style="display: flex; justify-content: center; width: 100%; margin-top: 0rem;">
+                <button id="btnAddNew" class="mybutton" style="margin-left: 0rem" onclick="showDlgDetail(event);">
+                  この内容で登録する<i class="fas fa-user-plus" style="color: #039140 !important;"></i>
+                </button>
+              </div>
+    
+    
+            </form>
         </div>
-
-        <form id="myFormEntry">
-            <div class="control_container" style="display: block; margin-right: 0;">
-                <label for="email">メールアドレス</label>
-                <input class="mycontrol" type="email" id="email" name="email" value="" style="width: 100%; " />
-            </div>
-            <div class="control_container">
-                <label for="family_name">保護者名（姓のみで可）</label>
-                <input class="mycontrol" type="text" id="family_name" name="family_name" value="" style="width: 10rem;" />
-            </div>
-            <div class="control_container">
-                <label for="tel">連絡先</label>
-                <input class="mycontrol" type="text" id="tel" name="tel" value="" style="width: 15rem;" />
-            </div>
-
-            <div class="container_subtitle">
-                <h5 style="margin-right: auto;" onclick="toggleCondField();">
-                    参加者１
-                </h5>
-            </div>
-            <div class="control_container">
-                <label for="chile1_name">名前（名のみで可）</label>
-                <input class="mycontrol" type="text" id="chile1_name" name="chile1_name" value="" style="width: 8rem;" />
-            </div>
-            <div class="control_container">
-                <label for="chile1_rubi">ふりがな</label>
-                <input class="mycontrol" type="text" id="chile1_rubi" name="chile1_rubi" value="" style="width: 8rem;" />
-            </div>
-            <div class="control_container">
-                <label for="chile1_grade">学年</label>
-                <select class="mycontrol" name="occupation" id="chile1_grade" name="chile1_grade">
-                    <option value="" disabled selected >選択</option>
-                    <option value="1">１年生</option>
-                    <option value="2">２年生</option>
-                    <option value="3">３年生</option>
-                    <option value="4">４年生</option>
-                    <option value="5">５年生</option>
-                    <option value="6">６年生</option>
-                </select>
-            </div>
-
-            <div class="container_subtitle">
-                <h5 style="margin-right: auto;" onclick="toggleCondField();">
-                    参加者２
-                </h5>
-            </div>
-            <div class="control_container">
-                <label for="chile2_name">名前（名のみで可）</label>
-                <input class="mycontrol" type="text" id="chile2_name" name="chile2_name" value="" style="width: 8rem;" />
-            </div>
-            <div class="control_container">
-                <label for="chile2_rubi">ふりがな</label>
-                <input class="mycontrol" type="text" id="chile2_rubi" name="chile2_rubi" value="" style="width: 8rem;" />
-            </div>
-            <div class="control_container">
-                <label for="chile2_grade">学年</label>
-                <select class="mycontrol" name="occupation" id="chile2_grade" name="chile2_grade">
-                    <option value="" disabled selected >選択</option>
-                    <option value="1">１年生</option>
-                    <option value="2">２年生</option>
-                    <option value="3">３年生</option>
-                    <option value="4">４年生</option>
-                    <option value="5">５年生</option>
-                    <option value="6">６年生</option>
-                </select>
-            </div>
-
-            <div class="container_subtitle">
-                <h5 style="margin-right: auto;" onclick="toggleCondField();">
-                    参加者３
-                </h5>
-            </div>
-            <div class="control_container">
-                <label for="chile3_name">名前（名のみで可）</label>
-                <input class="mycontrol" type="text" id="chile3_name" name="chile3_name" value="" style="width: 8rem;" />
-            </div>
-            <div class="control_container">
-                <label for="chile3_rubi">ふりがな</label>
-                <input class="mycontrol" type="text" id="chile3_rubi" name="chile3_rubi" value="" style="width: 8rem;" />
-            </div>
-            <div class="control_container">
-                <label for="chile3_grade">学年</label>
-                <select class="mycontrol" name="occupation" id="chile3_grade" name="chile3_grade">
-                    <option value="" disabled selected >選択</option>
-                    <option value="1">１年生</option>
-                    <option value="2">２年生</option>
-                    <option value="3">３年生</option>
-                    <option value="4">４年生</option>
-                    <option value="5">５年生</option>
-                    <option value="6">６年生</option>
-                </select>
-            </div>
-
-            <div class="container_subtitle">
-                <h5 style="margin-right: auto;" onclick="toggleCondField();">
-                    参加者４
-                </h5>
-            </div>
-            <div class="control_container">
-                <label for="chile4_name">名前（名のみで可）</label>
-                <input class="mycontrol" type="text" id="chile4_name" name="chile4_name" value="" style="width: 8rem;" />
-            </div>
-            <div class="control_container">
-                <label for="chile4_rubi">ふりがな</label>
-                <input class="mycontrol" type="text" id="chile4_rubi" name="chile4_rubi" value="" style="width: 8rem;" />
-            </div>
-            <div class="control_container">
-                <label for="chile4_grade">学年</label>
-                <select class="mycontrol" name="occupation" id="chile4_grade" name="chile4_grade">
-                    <option value="" disabled selected >選択</option>
-                    <option value="1">１年生</option>
-                    <option value="2">２年生</option>
-                    <option value="3">３年生</option>
-                    <option value="4">４年生</option>
-                    <option value="5">５年生</option>
-                    <option value="6">６年生</option>
-                </select>
-            </div>
-
-            <div class="container_subtitle">
-                <h5 style="margin-right: auto;" onclick="toggleCondField();">
-                    参加者５
-                </h5>
-            </div>
-            <div class="control_container">
-                <label for="chile5_name">名前（名のみで可）</label>
-                <input class="mycontrol" type="text" id="chile5_name" name="chile5_name" value="" style="width: 8rem;" />
-            </div>
-            <div class="control_container">
-                <label for="chile5_rubi">ふりがな</label>
-                <input class="mycontrol" type="text" id="chile5_rubi" name="chile5_rubi" value="" style="width: 8rem;" />
-            </div>
-            <div class="control_container">
-                <label for="chile5_grade">学年</label>
-                <select class="mycontrol" name="occupation" id="chile5_grade" name="chile5_grade">
-                    <option value="" disabled selected >選択</option>
-                    <option value="1">１年生</option>
-                    <option value="2">２年生</option>
-                    <option value="3">３年生</option>
-                    <option value="4">４年生</option>
-                    <option value="5">５年生</option>
-                    <option value="6">６年生</option>
-                </select>
-            </div>
-
-            <div class="" style="display: flex; justify-content: center; width: 100%; margin-top: 0rem;">
-            <button id="btnAddNew" class="mybutton" style="margin-left: 0rem" onclick="showDlgDetail(event);">
-              この内容で登録する<i class="fas fa-user-plus" style="color: #039140 !important;"></i>
-            </button>
-          </div>
-
-
-        </form>
-    </div>
+    </main>
 
 
 
