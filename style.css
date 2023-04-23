@@ -30,6 +30,9 @@
 h3 {
     font-size: 1.1rem;
 }
+h4 {
+    font-size: 1.05em;
+}
 
 body.mycss {
     background: #afa8;
@@ -114,7 +117,8 @@ main.mycss {
 }
 
 
-.control_container  input[type="text"],input[type="email"] {
+.control_container input[type="text"],
+.control_container input[type="email"] {
     border-radius: 0.2rem;
     /* font-size: 1rem; */
     border: 1px solid #ccc;
@@ -124,18 +128,24 @@ main.mycss {
     height: var(--control-height);
     line-height: 1rem;
     padding: 0em 0.5rem;
+    appearance: none;
+    -webkit-appearance: none;
 
 }
 
 
-.textbox.center {
+.control_container input[type="text"].center,
+.control_container input[type="email"].center {
     text-align: center;
 }
-.textbox:hover {
-    background: rgba(83, 2, 2, 0.237);
+
+.control_container input[type="text"]:hover,
+.control_container input[type="email"]:hover {
+    background: #0a09;
 }
-.textbox:focus {
-    background: rgba(89, 30, 30, 0.721);
+.control_container input[type="text"]:focus,
+.control_container input[type="email"]:focus {
+    background: #0a0;
     outline: 2px solid #aac;
     color: #fff;
 }
