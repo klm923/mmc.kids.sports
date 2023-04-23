@@ -170,8 +170,8 @@ select.mycontrol {
 button {
     /* font-size: 1rem; */
     color: #000;
-    appearance: none;
-    -webkit-appearance: none;
+    /* appearance: none;
+    -webkit-appearance: none; */
 }
 
 button.mybutton {
