@@ -155,8 +155,9 @@ main.mycss {
 }
 
 .mycontrol:focus {
-    border-radius: 0.25rem;
-    outline: 2px solid #aac;
+    /* border-radius: 0.25rem; */
+    /* outline: 2px solid #aac; */
+    outline: none;
     background: #0a09;
     /* color: #fff; */
 }
