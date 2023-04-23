@@ -131,7 +131,7 @@ main.mycss {
 
 
 .mycontrol {
-    border-radius: 0.25rem;
+    border-radius: 0.3rem;
     /* font-size: 1rem; */
     border: 1px solid #aba;
     background: #fff5;
@@ -162,3 +162,6 @@ main.mycss {
     /* color: #fff; */
 }
 
+select.mycontrol {
+    color:#000;
+}
